@@ -13,7 +13,7 @@ O clonar el repositorio a través del comando [git clone](https://docs.github.co
 ```bash
 git clone https://github.com/victorex/Tarea2-TPCD.git
 
-cd Tarea1-TPCD
+cd Tarea2-TPCD
 ```
 
 ## Importante
