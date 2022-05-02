@@ -24,7 +24,7 @@ Aplicación en Jupyter Notebook que muestre una historia del proceso de preparac
 |Medición de calidad del aire interior|Medición con nodo sensor de las variables que determinan la calidad del aire interior: CO2, CO, NO2, COV (compuestos orgánicos volátiles); junto a mediciones de concentración de polvo grueso PM10 y polvo fino PM2.5|Presencia de medición de CO, CO2, NO2, COV, PM10, PM2.5 en plataforma e interfaz de operación|
 |Registro historizado de mediciones|Mediciones almacenadas en base de datos con información asociada a tiempo en que la medición se ejecutó y ubicación en el recinto|Mediciones de las variables con formato {fecha-hora, valor}, factibles de ser analizadas con herramientas de series de tiempo|
 
-**Diccionario:**
+**Índices:**
 |Dato|Info|Unidad de medida|
 |--------|--------|--------|
 |id|ID del dato en la BD|U.A.|
@@ -42,6 +42,7 @@ Aplicación en Jupyter Notebook que muestre una historia del proceso de preparac
 |c2h5ch|Etanol C2H5OH|ppm|
 |idnodo|ID del nodo, correspondiente a su dirección MAC del dispositivo|U.A.|
 
+**Diccionario:**
 |Unidad|Descripción|
 |--------|--------|
 |ppm|Particulas por Millón|
