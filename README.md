@@ -2,6 +2,20 @@
 
 Aplicación en Jupyter Notebook que muestre una historia del proceso de preparación de datos para su posterior análisis, utilizando las herramientas que provee el lenguaje de programación Python.
 
+## Propiedad de los datos
+**Proyecto:** Plataforma de diagnóstico e historización del confort térmico, consumo de energía y calidad de aire en hospitales públicos.
+
+**Director Proyecto:** Dr. Hugo Garcés H.
+
+**ID Proyecto:** 18IIP-BB-99513.
+
+**Instituciones Ejecutoras:**
+- Universidad Católica de la Santísima Concepción (Campus San Andrés, Concepción)
+- Universidad Técnica Federico Santa María (Sede Concepción)
+
+**Datos:** Nodo (MAC FD:BA:37) Pasillo 5to Piso - Sector Neonatología del Hospital Regional Guillermo Grant Benavente.
+
+
 ## Instalación
 Descomprimir la aplicacion y abrir una terminal cambiando el directorio de trabajo actual a la ubicación en donde se encuentra la aplicación.
 ```bash
