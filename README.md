@@ -17,11 +17,39 @@ Aplicación en Jupyter Notebook que muestre una historia del proceso de preparac
 
 ## Variables
 
+**Atributos:**
 |Atributo|Descripción|Indicador de Resultado|
 |--------|--------|--------|
 |Medición de confort térmico|Medición con nodo sensor de las variables que definen el confort térmico en un recinto: PMV: predicted mean vote y PPD: percentage persons dissastified|Presencia de medición de PMV y PPD en plataforma e interfaz de operación|
 |Medición de calidad del aire interior|Medición con nodo sensor de las variables que determinan la calidad del aire interior: CO2, CO, NO2, COV (compuestos orgánicos volátiles); junto a mediciones de concentración de polvo grueso PM10 y polvo fino PM2.5|Presencia de medición de CO, CO2, NO2, COV, PM10, PM2.5 en plataforma e interfaz de operación|
 |Registro historizado de mediciones|Mediciones almacenadas en base de datos con información asociada a tiempo en que la medición se ejecutó y ubicación en el recinto|Mediciones de las variables con formato {fecha-hora, valor}, factibles de ser analizadas con herramientas de series de tiempo|
+
+**Diccionario:**
+|Dato|Info|Unidad de medida|
+|--------|--------|--------|
+|id|ID del dato en la BD|U.A.|
+|timestamp|Fecha y hora del dato capturado|Time|
+|pmv|Voto Medio Previsto, estima la sensación térmica|U.A.|
+|ppd|Porcentaje de Personas Insatisfechas|%|
+|co2|Dioxido de Carbono|ppm|
+|pm25|Material Particulado Fino|μg/m³|
+|pm10|Material Particulado Grueso|μg/m³|
+|temp|Temperatura|°C|
+|hr|Humedad Relativa|%|
+|voc|Compuestos Orgánicos Volatiles|ppm|
+|co|Monoxido de Carbono|ppm|
+|no2|Dioxido de Nitrogeno|ppm|
+|c2h5ch|Etanol C2H5OH|ppm|
+|idnodo|ID del nodo, correspondiente a su dirección MAC del dispositivo|U.A.|
+
+|Unidad|Descripción|
+|--------|--------|
+|ppm|Particulas por Millón|
+|%|Porcentaje|
+|Time|Instante de tiempo|
+|μg/m³|Microgramos por metro cúbico|
+|°C|Grados Celsius|
+|U.A.|Unidad Adimensional|
 
 
 ## Instalación
