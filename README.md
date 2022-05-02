@@ -28,6 +28,6 @@ Al momento de ejecutar la aplicación se deben ingresar el siguiente parámetro 
  python Main.py En_El_Mar_Remoto
 ```
 
-## Versión
+## Versión python
 
     Python 3.8
