@@ -15,6 +15,14 @@ Aplicación en Jupyter Notebook que muestre una historia del proceso de preparac
 
 **Datos:** Nodo (MAC FD:BA:37) Pasillo 5to Piso - Sector Neonatología del Hospital Regional Guillermo Grant Benavente.
 
+## Variables
+
+|Atributo|Descripción|Indicador de Resultado|
+|--------|--------|--------|
+|Medición de confort térmico|Medición con nodo sensor de las variables que definen el confort térmico en un recinto: PMV: predicted mean vote y PPD: percentage persons dissastified|Presencia de medición de PMV y PPD en plataforma e interfaz de operación|
+|Medición de calidad del aire interior|Medición con nodo sensor de las variables que determinan la calidad del aire interior: CO2, CO, NO2, COV (compuestos orgánicos volátiles); junto a mediciones de concentración de polvo grueso PM10 y polvo fino PM2.5|Presencia de medición de CO, CO2, NO2, COV, PM10, PM2.5 en plataforma e interfaz de operación|
+|Registro historizado de mediciones|Mediciones almacenadas en base de datos con información asociada a tiempo en que la medición se ejecutó y ubicación en el recinto|Mediciones de las variables con formato {fecha-hora, valor}, factibles de ser analizadas con herramientas de series de tiempo|
+
 
 ## Instalación
 Descomprimir la aplicacion y abrir una terminal cambiando el directorio de trabajo actual a la ubicación en donde se encuentra la aplicación.
