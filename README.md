@@ -78,12 +78,8 @@ git clone https://github.com/victorex/Tarea2-TPCD.git
 cd Tarea2-TPCD
 ```
 
-## Importante
-Al momento de ejecutar la aplicación se deben ingresar el siguiente parámetro necesario para el funcionamiento de esta:
-- Nombre del libro a trabajar (éste debe estar almacenado en el directorio ```"../Libros_txt_utf-8"```).
-
 ## Ejecución
-Al abrir la carpeta contenedora en Visual Studio Code, abrir el archivo ```Main.ipynb``` y en el panel superior al centro, presionar en en **Ejecutar todo**.
+Al abrir la carpeta contenedora en Visual Studio Code, abrir el archivo ```Main.ipynb```, seleccionandolo con doble clic en la vista de carpetas y archivos en el costado izquierdo. Luego en el panel superior, al centro, presionar en **Ejecutar todo**.
 
 ## Versión Python
 
