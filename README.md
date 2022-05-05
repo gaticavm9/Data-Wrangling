@@ -54,6 +54,17 @@ Aplicación en Jupyter Notebook que muestre una historia del proceso de preparac
 
 
 ## Instalación
+Es necesario tener instalado Jupyter Notebooks en Visual Studio Code. Luego en una terminal Powershell o CMD en Windows se debe instalar las librerías de Pandas y MatPlotLib.
+- Pandas:
+```bash
+pip install pandas
+```
+
+- MatPlotLib:
+```bash
+py -m pip install matplotlib
+```
+
 Descomprimir la aplicacion y abrir una terminal cambiando el directorio de trabajo actual a la ubicación en donde se encuentra la aplicación.
 ```bash
 cd Tarea2-TPCD
