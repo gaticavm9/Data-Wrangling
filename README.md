@@ -82,14 +82,9 @@ cd Tarea2-TPCD
 Al momento de ejecutar la aplicación se deben ingresar el siguiente parámetro necesario para el funcionamiento de esta:
 - Nombre del libro a trabajar (éste debe estar almacenado en el directorio ```"../Libros_txt_utf-8"```).
 
-## Ejemplos de ejecución
+## Ejecución
+Al abrir la carpeta contenedora en Visual Studio Code, abrir el archivo ```Main.ipynb``` y en el panel superior al centro, presionar en en **Ejecutar todo**.
 
-```properties
- python Main.py El_Arbol_De_La_Colina
- python Main.py El_Caos_Reptante
- python Main.py En_El_Mar_Remoto
-```
-
-## Versión python
+## Versión Python
 
     Python 3.8
