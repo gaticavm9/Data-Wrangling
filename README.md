@@ -17,6 +17,8 @@ Aplicación en Jupyter Notebook que muestre una historia del proceso de preparac
 
 ## Variables
 
+Análisis de Confort Térmico y Calidad del aire, mediante la definicion de confort térmico de la norma ISO 7730 y la norma ASHRAE 55-2013. El confort térmico es calculado mediante el Método Fanger.
+ 
 **Atributos:**
 |Atributo|Descripción|Indicador de Resultado|
 |--------|--------|--------|
