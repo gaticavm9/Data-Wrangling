@@ -78,7 +78,7 @@ Esta herramienta nos permite ocupar de manera sencilla notebooks de Jupyter ya q
 [Web Anaconda](https://www.anaconda.com/products/distribution).
 
 
-### Librerías
+### Librerías necesarias
 Para instalar las librerías necesarias debemos ejecutar los siguientes comandos a través de la terminal.
 - Numpy:
 ```bash
