@@ -60,7 +60,7 @@ Es necesario tener instalado el software Jupyter Notebooks y las librerías que 
 
 ### Jupyter Notebook
 Para utilizar el software Jupyter Notebook se tienen distintas opciones, a continuación se listan las mas comunes:
-- Terminal
+- **Terminal**
 
 Instalación
 ```bash
@@ -71,11 +71,12 @@ Ejecución
 jupyter notebook
 ```
 
-- Herramienta Anaconda
+- **Herramienta Anaconda**
 
 Esta herramienta nos permite ocupar de manera sencilla notebooks de Jupyter ya que cuenta con las librerías de python más populares ya instaladas.
 
 [Web Anaconda](https://www.anaconda.com/products/distribution).
+
 
 ### Librerías
 Para instalar las librerías necesarias debemos ejecutar los siguientes comandos a través de la terminal.
@@ -94,8 +95,9 @@ pip install pandas
 py -m pip install matplotlib
 ```
 
+
 ### Utilizar Notebook
-- Terminal
+- **Terminal**
 
 Descomprimir el notebook y abrir una terminal cambiando el directorio de trabajo actual a la ubicación en donde se encuentra nuestro notebook "Main.ipynb".
 ```bash
@@ -114,11 +116,11 @@ jupyter notebook
 ```
 Se abrirá un pestaña en el navegador donde debemos navegar a la carpeta donde tenemos nuestro notebook (Tarea2-TPCD) y abrir "Main.ipynb".
 
-- Anaconda
+- **Anaconda**
 
 En anaconda de igual manera abrimos la pestaña de Jupyter Notebook en el navegador, navegamos a la carpeta con los archivos necesarios (Tarea2-TPCD) y abrimos el archivo "Main.ipynb".
 
-- Visual Studio Code
+- **Visual Studio Code**
 
 El proceso es similar a utilizar la herramienta de Anaconda, navegamos a la carpeta con los archivos necesarios (Tarea2-TPCD) y abrimos el archivo "Main.ipynb".
 
