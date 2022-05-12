@@ -1,6 +1,6 @@
 # Tarea 2 - Taller de Python para Ciencia de Datos
 
-Aplicación en Jupyter Notebook que muestre una historia del proceso de preparación de datos para su posterior análisis, utilizando las herramientas que provee el lenguaje de programación Python.
+Aplicación en Jupyter Notebook que muestre una historia del proceso de preparación de datos para su posterior análisis, utilizando las herramientas que provee el lenguaje de programación Python y las librerías de este Pandas y Numpy.
 
 ## Propiedad de los datos
 **Proyecto:** Plataforma de diagnóstico e historización del confort térmico, consumo de energía y calidad de aire en hospitales públicos.
@@ -55,8 +55,31 @@ Análisis de Confort Térmico y Calidad del aire, mediante la definicion de conf
 |U.A.|Unidad Adimensional|
 
 
-## Instalación
-Es necesario tener instalado Jupyter Notebooks en Visual Studio Code. Luego en una terminal Powershell o CMD en Windows se debe instalar las librerías de Pandas y MatPlotLib.
+## Instalación y usp del Notebook
+Es necesario tener instalado el software Jupyter Notebooks y las librerías que se utilizaran.
+
+### Jupyter Notebook
+Para utilizar el software Jupyter Notebook se tienen distintas opciones, a continuación se listan algunas:
+- Terminal
+Instalación
+```bash
+pip install notebook
+```
+Ejecución
+```bash
+jupyter notebook
+```
+- Herramienta Anaconda
+Esta herramienta nos permite ocupar de manera sencilla notebooks de Jupyter ya que cuenta con las librerías de python más populares ya instaladas.
+[Web Anaconda](https://www.anaconda.com/products/distribution).
+
+### Librerías
+Para instalar las librerías necesarias debemos ejecutar los siguientes comandos a través de la terminal.
+- Numpy:
+```bash
+pip install numpy
+```
+
 - Pandas:
 ```bash
 pip install pandas
@@ -67,22 +90,31 @@ pip install pandas
 py -m pip install matplotlib
 ```
 
-Descomprimir la aplicacion y abrir una terminal cambiando el directorio de trabajo actual a la ubicación en donde se encuentra la aplicación.
+### Utilizar Notebook
+- Terminal
+Descomprimir el notebook y abrir una terminal cambiando el directorio de trabajo actual a la ubicación en donde se encuentra nuestro notebook "Main.ipynb".
 ```bash
 cd Tarea2-TPCD
 ```
 
 O clonar el repositorio a través del comando [git clone](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository).
-
 ```bash
 git clone https://github.com/victorex/Tarea2-TPCD.git
 
 cd Tarea2-TPCD
 ```
+Luego debemos ejecutar la aplicación Jupyter Notebook
+```bash
+jupyter notebook
+```
+Se abrirá un pestaña en el navegador donde debemos navegar a la carpeta donde tenemos nuestro notebook (Tarea2-TPCD) y abrir "Main.ipynb".
 
-## Ejecución
-Al abrir la carpeta contenedora en Visual Studio Code, abrir el archivo ```Main.ipynb```, seleccionandolo con doble clic en la vista de carpetas y archivos en el costado izquierdo. Luego en el panel superior, al centro, presionar en **Ejecutar todo**.
+- Anaconda
+En anaconda de igual manera abrimos la pestaña de Jupyter Notebook en el navegador, navegamos a la carpeta con los archivos necesarios (Tarea2-TPCD) y abrimos el archivo "Main.ipynb".
 
-## Versión Python
+- Visual Studio Code
+El proceso es similar a utilizar la herramienta de Anaconda, navegamos a la carpeta con los archivos necesarios (Tarea2-TPCD) y abrimos el archivo "Main.ipynb".
+
+## Versión Python necesaria
 
     Python 3.8
