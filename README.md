@@ -55,13 +55,12 @@ Análisis de Confort Térmico y Calidad del aire, mediante la definicion de conf
 |U.A.|Unidad Adimensional|
 
 
-## Instalación y usp del Notebook
-Es necesario tener instalado el software Jupyter Notebooks y las librerías que se utilizaran.
+## Instalación y uso del Notebook
+Es necesario tener instalado el software Jupyter Notebooks y las librerías que se utilizarán.
 
 ### Jupyter Notebook
-Para utilizar el software Jupyter Notebook se tienen distintas opciones, a continuación se listan algunas:
+Para utilizar el software Jupyter Notebook se tienen distintas opciones, a continuación se listan las mas comunes:
 - Terminal
-Instalación
 ```bash
 pip install notebook
 ```
@@ -69,8 +68,10 @@ Ejecución
 ```bash
 jupyter notebook
 ```
+
 - Herramienta Anaconda
 Esta herramienta nos permite ocupar de manera sencilla notebooks de Jupyter ya que cuenta con las librerías de python más populares ya instaladas.
+
 [Web Anaconda](https://www.anaconda.com/products/distribution).
 
 ### Librerías
