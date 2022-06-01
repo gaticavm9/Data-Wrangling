@@ -1,4 +1,4 @@
-# Tarea 2 - Taller de Python para Ciencia de Datos
+# Preparación de set de datos
 
 Aplicación en Jupyter Notebook que muestre una historia del proceso de preparación de datos para su posterior análisis, utilizando las herramientas que provee el lenguaje de programación Python y las librerías de este Pandas y Numpy.
 
